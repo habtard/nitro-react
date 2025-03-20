@@ -1,5 +1,5 @@
 {
-    "socket.url": "wss://ws.sadie.pw:2096",
+    "socket.url": "wss://ws.sadie.pw",
     "asset.url": "https://cdn.sadie.pw",
     "image.library.url": "https://cdn.sadie.pw/c_images/",
     "hof.furni.url": "https://cdn.sadie.pw/dcr/hof_furni",
