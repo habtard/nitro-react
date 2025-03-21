@@ -1,8 +1,8 @@
 {
     "socket.url": "wss://ws.sadie.pw",
-    "asset.url": "https://cdn.sadie.pw",
-    "image.library.url": "https://cdn.sadie.pw/c_images/",
-    "hof.furni.url": "https://cdn.sadie.pw/dcr/hof_furni",
+    "asset.url": "https://sadie-production.s3.eu-north-1.amazonaws.com",
+    "image.library.url": "https://sadie-production.s3.eu-north-1.amazonaws.com/c_images/",
+    "hof.furni.url": "https://sadie-production.s3.eu-north-1.amazonaws.com/dcr/hof_furni",
     "images.url": "${asset.url}/images",
     "gamedata.url": "${asset.url}/gamedata",
     "sounds.url": "${asset.url}/sounds/%sample%.mp3",
