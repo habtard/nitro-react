@@ -1,6 +1,6 @@
 {
     "socket.url": "wss://ws.sadie.pw",
-    "asset.url": "https://assets.habboon.pw/nitro/",
+    "asset.url": "https://sadie-production.s3.eu-north-1.amazonaws.com",
     "image.library.url": "https://sadie-production.s3.eu-north-1.amazonaws.com/c_images/",
     "hof.furni.url": "https://sadie-production.s3.eu-north-1.amazonaws.com/dcr/hof_furni",
     "images.url": "${asset.url}/images",
