@@ -1,6 +1,6 @@
 {
     "socket.url": "wss://ws.sadie.pw",
-    "asset.url": "https://staging.d39a6kddfa0uby.amplifyapp.com",
+    "asset.url": "https://cdn.sadie.pw",
     "image.library.url": "http://localhost:1234/c_images/",
     "hof.furni.url": "http://localhost:1234/dcr/hof_furni",
     "images.url": "${asset.url}/images",
