@@ -1,8 +1,8 @@
 {
     "socket.url": "wss://ws.sadie.pw",
-    "asset.url": "http://localhost:1234",
-    "image.library.url": "http://localhost:1234/c_images/",
-    "hof.furni.url": "http://localhost:1234/dcr/hof_furni",
+    "asset.url": "https://d29u56nij6jqqe.cloudfront.net",
+    "image.library.url": "https://d29u56nij6jqqe.cloudfront.net/c_images/",
+    "hof.furni.url": "https://d29u56nij6jqqe.cloudfront.net/dcr/hof_furni",
     "images.url": "${asset.url}/images",
     "gamedata.url": "${asset.url}/gamedata",
     "sounds.url": "${asset.url}/sounds/%sample%.mp3",
