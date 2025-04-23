@@ -26,6 +26,7 @@
       const local = new URLSearchParams(window.location.search).has('local');
 
       if (local) {
+          configUrls = configUrls.filter(i => i !== '/renderer-conifg.json')
           configUrls.push('/local-config.json')
       }
 
