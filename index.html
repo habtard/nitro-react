@@ -22,13 +22,7 @@
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root" class="w-100 h-100"></div>
     <script>
-      let configUrls = [ '/renderer-config.json', '/ui-config.json' ];
-      const local = new URLSearchParams(window.location.search).has('local');
-
-      if (local) {
-          configUrls = configUrls.filter(i => i !== '/renderer-conifg.json')
-          configUrls.push('/local-config.json')
-      }
+      let configUrls = [ '/' + (new URLSearchParams(window.location.search).has('local') ? 'local' : 'renderer') + '-config.json', '/ui-config.json' ];
 
       const NitroConfig = {
         "config.urls": configUrls,
